@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+img{vertical-align: middle;}
+
+
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 89px;
+}
+
+.cantainor{
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.header-logo{
+    width: 160px;
+    height: 41px;
+}
+
+.header-list{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.item-link{
+    text-decoration: none;
+}
+
+.header-item{
+    margin-right: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    /* 1f1534-hyfen */
+
+    color: #1F1534;
+
+    opacity: 0.5;
+}
+.actev{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    /* 1f1534-hyfen */
+
+    color: #1F1534;
+}
+
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 445px;
+    height: 336px;
+
+}
+
+.header-hidding{
+    display: inline-block;
+    margin: 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    /* or 117% */
+
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+}
+
+.header-text{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    /* or 152% */
+
+
+    color: #7D7987;
+}
+
+.tugma-link-wrapper{
+    background: #458FF6;
+    border-radius: 55px;
+    width: 200px;
+    height: 56px;
+    padding: 16px 41px;
+}
+
+.link-tugma{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    text-decoration: none;
+}
+
+.kotta-img{
+    width: 689px;
+    height: 590px;
+}
+.yangi-dev{
+
+}
